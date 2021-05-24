@@ -12,22 +12,22 @@
 
 ## 개발환경
 [Hardware]
-*노트북
+* 노트북
   CPU : intel(R) Core(TM) i7-8550U
   RAM : 16GB
   CAM : 노트북 내장 캠
   OS : Windows10
 
-*아두이노 우노 보드
+* 아두이노 우노 보드
 
-*삼성전자 59.8cm FHD 커브드 모니터
+* 삼성전자 59.8cm FHD 커브드 모니터
 
-*로지텍 웹캠 C920 WEBCAM C920
+* 로지텍 웹캠 C920 WEBCAM C920
 
 [Software]
-*Pycharm (python 언어 사용)
+* Pycharm (python 언어 사용)
 
-*Arduino IDE
+* Arduino IDE
 
 
 
