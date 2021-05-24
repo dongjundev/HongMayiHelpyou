@@ -12,11 +12,11 @@
 
 ## 개발환경
 [Hardware]
-* 노트북
-  CPU : intel(R) Core(TM) i7-8550U
-  RAM : 16GB
-  CAM : 노트북 내장 캠
-  OS : Windows10
+* 노트북<br>
+  CPU : intel(R) Core(TM) i7-8550U<br>
+  RAM : 16GB<br>
+  CAM : 노트북 내장 캠<br>
+  OS : Windows10<br>
 
 * 아두이노 우노 보드
 
