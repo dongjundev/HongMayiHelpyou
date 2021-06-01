@@ -1,0 +1,1185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1060</height>
+   </rect>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::NoContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(198, 214, 228);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0" rowspan="2" colspan="2">
+    <widget class="QWidget" name="bed_widget" native="true">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(236, 236, 236);</string>
+     </property>
+     <widget class="QPushButton" name="bed_back_btn">
+      <property name="geometry">
+       <rect>
+        <x>1420</x>
+        <y>830</y>
+        <width>321</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>배달의민족 을지로체 TTF</family>
+        <pointsize>30</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+font: 30pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 20px; 
+border-style: outset; 
+</string>
+      </property>
+      <property name="text">
+       <string>뒤로가기</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bed_up_btn">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>170</y>
+        <width>721</width>
+        <height>621</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>391</width>
+        <height>381</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>배달의민족 을지로체 TTF</family>
+        <pointsize>50</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+font: 50pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 20px; 
+border-style: outset; 
+</string>
+      </property>
+      <property name="text">
+       <string>올리기</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bed_down_btn">
+      <property name="geometry">
+       <rect>
+        <x>1020</x>
+        <y>170</y>
+        <width>721</width>
+        <height>621</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>391</width>
+        <height>381</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>배달의민족 을지로체 TTF</family>
+        <pointsize>50</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+font: 50pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 20px; 
+border-style: outset; 
+</string>
+      </property>
+      <property name="text">
+       <string>내리기</string>
+      </property>
+     </widget>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="1" column="5">
+      <widget class="QPushButton" name="clear_btn">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>191</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(217, 217, 217);
+font: 20pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 10px; 
+border-style: outset; </string>
+       </property>
+       <property name="text">
+        <string>삭제</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QPushButton" name="light_btn">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>281</width>
+         <height>191</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: 50pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 20px; 
+border-style: outset; 
+</string>
+       </property>
+       <property name="text">
+        <string>전등</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="water_btn">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>281</width>
+         <height>191</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: 50pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 20px; 
+border-style: outset; 
+</string>
+       </property>
+       <property name="text">
+        <string>물</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="3">
+      <widget class="QPushButton" name="pose_btn">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>281</width>
+         <height>191</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: 35pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 20px; 
+border-style: outset; 
+</string>
+       </property>
+       <property name="text">
+        <string>자세가 불편해요</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QTextEdit" name="textEdit">
+       <property name="minimumSize">
+        <size>
+         <width>281</width>
+         <height>191</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>맑은 고딕</family>
+         <pointsize>15</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: 15pt &quot;맑은 고딕&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 20px; 
+border-style: outset; 
+</string>
+       </property>
+       <property name="html">
+        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'맑은 고딕'; font-size:15pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Gulim';&quot;&gt;메세지 출력 : &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Gulim'; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Gulim'; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="bed_btn">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>281</width>
+         <height>191</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>배달의민족 을지로체 TTF</family>
+         <pointsize>50</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: 50pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 20px; 
+border-style: outset; 
+</string>
+       </property>
+       <property name="text">
+        <string>침대</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QPushButton" name="temperature_btn">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>281</width>
+         <height>191</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: 50pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 20px; 
+border-style: outset; 
+</string>
+       </property>
+       <property name="text">
+        <string>온도</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="eat_btn">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>281</width>
+         <height>191</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: 50pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 20px; 
+border-style: outset; 
+</string>
+       </property>
+       <property name="text">
+        <string>식사</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="5">
+      <widget class="QPushButton" name="gallary">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>191</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(217, 217, 217);
+font: 20pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 10px; 
+border-style: outset; </string>
+       </property>
+       <property name="text">
+        <string>사진첩</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="eye_btn">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>281</width>
+         <height>191</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>휴먼엑스포</family>
+         <pointsize>30</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: 30pt;
+border: 2px solid #d0d0d0; 
+border-radius: 20px; 
+border-style: outset; 
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../image/icon.qrc">
+         <normaloff>:/icon/eye_open.png</normaloff>
+         <normalon>:/icon/eye_close.png</normalon>:/icon/eye_open.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>200</width>
+         <height>200</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QPushButton" name="emergency_btn">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>281</width>
+         <height>191</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>휴먼엑스포</family>
+         <pointsize>30</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: 30pt;
+border: 2px solid #d0d0d0; 
+border-radius: 20px; 
+border-style: outset; 
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../image/icon.qrc">
+         <normaloff>:/icon/emergency.png</normaloff>:/icon/emergency.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>200</width>
+         <height>200</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QPushButton" name="out_btn">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>281</width>
+         <height>191</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: 50pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 20px; 
+border-style: outset; 
+</string>
+       </property>
+       <property name="text">
+        <string>외출</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="5">
+      <widget class="QPushButton" name="cam_btn">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>51</width>
+         <height>191</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(217, 217, 217);
+font: 20pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 10px; 
+border-style: outset; </string>
+       </property>
+       <property name="text">
+        <string>CAM </string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QPushButton" name="toilet_btn">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>281</width>
+         <height>191</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: 50pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 30px; 
+border-style: outset; 
+</string>
+       </property>
+       <property name="text">
+        <string>화장실</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QPushButton" name="window_btn">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>281</width>
+         <height>191</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: 50pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 20px; 
+border-style: outset; 
+</string>
+       </property>
+       <property name="text">
+        <string>창문</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="5">
+      <widget class="QPushButton" name="exit_btn">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>배달의민족 을지로체 TTF</family>
+         <pointsize>17</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 0, 0);
+border-color: rgb(0, 0, 255);
+color: rgb(255, 255, 255);
+border-style: outset; 
+border: 2px solid #d0d0d0; 
+border-radius: 10px; </string>
+       </property>
+       <property name="text">
+        <string>뒤로가기</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+  <widget class="QWidget" name="eat_widget" native="true">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>11</y>
+     <width>1898</width>
+     <height>1080</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(236, 236, 236);</string>
+   </property>
+   <widget class="QPushButton" name="hungry_btn">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>170</y>
+      <width>721</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>배달의민족 을지로체 TTF</family>
+      <pointsize>50</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 50pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 20px; 
+border-style: outset; 
+</string>
+    </property>
+    <property name="text">
+     <string>배고파요</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="full_btn">
+    <property name="geometry">
+     <rect>
+      <x>1020</x>
+      <y>170</y>
+      <width>721</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>배달의민족 을지로체 TTF</family>
+      <pointsize>50</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 50pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 20px; 
+border-style: outset; 
+</string>
+    </property>
+    <property name="text">
+     <string>배불러요</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="eat_back_btn">
+    <property name="geometry">
+     <rect>
+      <x>1420</x>
+      <y>830</y>
+      <width>321</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>배달의민족 을지로체 TTF</family>
+      <pointsize>30</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 30pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 20px; 
+border-style: outset; 
+</string>
+    </property>
+    <property name="text">
+     <string>뒤로가기</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="light_widget" native="true">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1901</width>
+     <height>1080</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(236, 236, 236);</string>
+   </property>
+   <widget class="QPushButton" name="light_on_btn">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>170</y>
+      <width>721</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>배달의민족 을지로체 TTF</family>
+      <pointsize>50</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 50pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 20px; 
+border-style: outset; 
+</string>
+    </property>
+    <property name="text">
+     <string>점등</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="light_off_btn">
+    <property name="geometry">
+     <rect>
+      <x>1020</x>
+      <y>170</y>
+      <width>721</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>배달의민족 을지로체 TTF</family>
+      <pointsize>50</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 50pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 20px; 
+border-style: outset; 
+</string>
+    </property>
+    <property name="text">
+     <string>소등</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="light_back_btn">
+    <property name="geometry">
+     <rect>
+      <x>1420</x>
+      <y>830</y>
+      <width>321</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>배달의민족 을지로체 TTF</family>
+      <pointsize>30</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 30pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 20px; 
+border-style: outset; 
+</string>
+    </property>
+    <property name="text">
+     <string>뒤로가기</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="window_widget" native="true">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1901</width>
+     <height>1080</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(236, 236, 236);</string>
+   </property>
+   <widget class="QPushButton" name="window_open_btn">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>170</y>
+      <width>721</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>배달의민족 을지로체 TTF</family>
+      <pointsize>50</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 50pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 20px; 
+border-style: outset; 
+</string>
+    </property>
+    <property name="text">
+     <string>창문 열기</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="window_close_btn">
+    <property name="geometry">
+     <rect>
+      <x>1020</x>
+      <y>170</y>
+      <width>721</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>배달의민족 을지로체 TTF</family>
+      <pointsize>50</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 50pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 20px; 
+border-style: outset; 
+</string>
+    </property>
+    <property name="text">
+     <string>창문 닫기</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="window_back_btn">
+    <property name="geometry">
+     <rect>
+      <x>1420</x>
+      <y>830</y>
+      <width>321</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>배달의민족 을지로체 TTF</family>
+      <pointsize>30</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 30pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 20px; 
+border-style: outset; 
+</string>
+    </property>
+    <property name="text">
+     <string>뒤로가기</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="toilet_widget" native="true">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>11</y>
+     <width>1898</width>
+     <height>1080</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(236, 236, 236);</string>
+   </property>
+   <widget class="QPushButton" name="small_btn">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>170</y>
+      <width>721</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>배달의민족 을지로체 TTF</family>
+      <pointsize>50</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 50pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 20px; 
+border-style: outset; 
+</string>
+    </property>
+    <property name="text">
+     <string>소변</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="big_btn">
+    <property name="geometry">
+     <rect>
+      <x>1020</x>
+      <y>170</y>
+      <width>721</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>배달의민족 을지로체 TTF</family>
+      <pointsize>50</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 50pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 20px; 
+border-style: outset; 
+</string>
+    </property>
+    <property name="text">
+     <string>대변</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="toilet_back_btn">
+    <property name="geometry">
+     <rect>
+      <x>1420</x>
+      <y>830</y>
+      <width>321</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>배달의민족 을지로체 TTF</family>
+      <pointsize>30</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 30pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 20px; 
+border-style: outset; 
+</string>
+    </property>
+    <property name="text">
+     <string>뒤로가기</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="temperature_widget" native="true">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1901</width>
+     <height>1080</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(236, 236, 236);</string>
+   </property>
+   <widget class="QPushButton" name="temperature_back_btn">
+    <property name="geometry">
+     <rect>
+      <x>1420</x>
+      <y>830</y>
+      <width>321</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>배달의민족 을지로체 TTF</family>
+      <pointsize>30</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 30pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 20px; 
+border-style: outset; 
+</string>
+    </property>
+    <property name="text">
+     <string>뒤로가기</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cold_btn">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>170</y>
+      <width>721</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>391</width>
+      <height>381</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>배달의민족 을지로체 TTF</family>
+      <pointsize>50</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 50pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 20px; 
+border-style: outset; 
+</string>
+    </property>
+    <property name="text">
+     <string>추워요</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="hot_btn">
+    <property name="geometry">
+     <rect>
+      <x>1020</x>
+      <y>170</y>
+      <width>721</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>391</width>
+      <height>381</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>배달의민족 을지로체 TTF</family>
+      <pointsize>50</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 50pt &quot;배달의민족 을지로체 TTF&quot;;
+border: 2px solid #d0d0d0; 
+border-radius: 20px; 
+border-style: outset; 
+</string>
+    </property>
+    <property name="text">
+     <string>더워요</string>
+    </property>
+   </widget>
+  </widget>
+  <zorder>eat_widget</zorder>
+  <zorder>temperature_widget</zorder>
+  <zorder>toilet_widget</zorder>
+  <zorder>window_widget</zorder>
+  <zorder>light_widget</zorder>
+  <zorder>bed_widget</zorder>
+ </widget>
+ <resources>
+  <include location="../image/icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>

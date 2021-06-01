@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>setting.png</file>
+    <file>my.png</file>
+    <file>gallery.png</file>
+    <file>eye_open.png</file>
+    <file>eye_close.png</file>
+  </qresource>
+</RCC>

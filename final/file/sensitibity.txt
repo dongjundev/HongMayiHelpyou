@@ -1,0 +1,5 @@
+0    2.68
+Name: up, dtype: float640    2.2
+Name: down, dtype: float640    1.67
+Name: right, dtype: float640    2.68
+Name: left, dtype: float64

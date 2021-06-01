@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>my.png</file>
+    <file>setting.png</file>
+    <file>emergency.png</file>
+    <file>exit.png</file>
+    <file>eye_close.png</file>
+    <file>eye_open.png</file>
+    <file>gallery.png</file>
+  </qresource>
+</RCC>
