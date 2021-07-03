@@ -3,9 +3,7 @@
 
 ## 영상
 <div align=center>
-  
 [![영상](http://img.youtube.com/vi/9roRBjF_O80/0.jpg)](https://www.youtube.com/watch?v=9roRBjF_O80)
-
 </div>
   
 ## 측면 구성도
