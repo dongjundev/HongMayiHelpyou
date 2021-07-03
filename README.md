@@ -2,8 +2,10 @@
 ### 시선인식을 활용한 의사소통프로그램(AAC)
 
 ## 영상
+<div align=center>
 ![영상](https://www.youtube.com/watch?v=9roRBjF_O80)
-
+</div>
+  
 ## 측면 구성도
 ![image](https://user-images.githubusercontent.com/60119368/117567844-fabcfe80-b0f8-11eb-953a-dd9817c24b2e.png)
 
